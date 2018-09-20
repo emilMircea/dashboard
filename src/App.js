@@ -16,25 +16,28 @@ const NavbarStyle = styled.ul`
 
 class App extends Component {
 	render() {
-		return (
-			<div className="container-fluid">
-				<NavbarStyle className="nav">
-					<li className="nav-item">
-						<a className='navbar-brand' style={{color: 'white'}}>Logo</a>
-					</li>
-					<Navbar />
-				</NavbarStyle>
+		return <div className="container-fluid">
+        <NavbarStyle className="nav">
+          <li className="nav-item">
+            <a className="navbar-brand" style={{ color: "white" }}>
+              Logo
+            </a>
+          </li>
+          <Navbar />
+        </NavbarStyle>
 
-				<div className="row">
-					<div className="col-3">
-						<Sidebar />
-					</div>
-					<div className="col-9">
-						<MainPanel />
-					</div>
-				</div>
-			</div>
-		)
+        <div className="row">
+          <div className="col-2">
+            <Sidebar />
+          </div>
+          <div className="col-10">
+            <MainPanel />
+          </div>
+        </div>
+        <div className='footer'>
+          <p>footer info</p>
+        </div>
+      </div>;
 	}
 }
 
