@@ -4,7 +4,6 @@ import Message from './Message'
 import { Collapse } from 'react-collapse'
 import { IconContext } from 'react-icons'
 import { IoMdNotificationsOutline } from 'react-icons/io'
-import { IoIosSquareOutline } from 'react-icons/io'
 import styled from 'styled-components'
 
 
@@ -32,7 +31,7 @@ const messages = [
 	}
 ]
 
-class CollapseNavigationTwo extends PureComponent {
+class CollapseNavigation extends PureComponent {
 	state = {
 		isOpened: false
 	}
@@ -45,8 +44,7 @@ class CollapseNavigationTwo extends PureComponent {
 
 	render() {
 		return (
-			<div>
-				<a onClick={this.handleOpenMessageList} style={{ display: 'flex' }}>
+				<div onClick={this.handleOpenMessageList} style={{ display: 'flex' }}>
 					<IconContext.Provider value={{ className: 'icon-large' }}>
 						<IoMdNotificationsOutline />
 					</IconContext.Provider>
@@ -58,14 +56,16 @@ class CollapseNavigationTwo extends PureComponent {
 							}`}
 						>
 							{messages.map((message, index) => (
-								<Message key={index} message={message.content} />
+								<li key={index}>
+									<Message message={message.content} />
+								</li>
 							))}
 						</ul>
 					</Collapse>
-				</a>
-			</div>
+				</div>
+			
 		)
 	}
 }
 
-export default CollapseNavigationTwo
+export default CollapseNavigation
