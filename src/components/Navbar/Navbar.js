@@ -1,9 +1,9 @@
 import React from 'react'
-import CollapseNavigationTwo from './CollapseNavigationTwo'
+import CollapseNavigation from './CollapseNavigation'
 
 const Navbar = () => (
 	<nav className="navbar navbar-expand-lg navbar-absolute navbar-transparent">
-		<CollapseNavigationTwo />
+		<CollapseNavigation />
 	</nav>
 )
 
