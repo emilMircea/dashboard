@@ -1,20 +1,20 @@
-import React from 'react'
+import React from "react";
 
 const Sidebar = () => (
-	<ul className="nav flex-column sidebar">
-		<li className="nav-item">
-			<a href="#" className="nav-link active">Some Link</a>
-		</li>
-		<li className="nav-item">
-			<a href="#" className="nav-link">Some Link</a>
-		</li>
-		<li className="nav-item">
-			<a href="#" className="nav-link">Some Link</a>
-		</li>
-		<li className="nav-item">
-			<a href="#" className="nav-link">Some Link</a>
-		</li>
-	</ul>
-)
+  <ul className="nav flex-column sidebar">
+    <li className="nav-item">
+      <a className="nav-link active">Sales Analysis</a>
+    </li>
+    <li className="nav-item">
+      <a className="nav-link">Inventory</a>
+    </li>
+    <li className="nav-item">
+      <a className="nav-link">Some Link</a>
+    </li>
+    <li className="nav-item">
+      <a className="nav-link">Notifications</a>
+    </li>
+  </ul>
+);
 
-export default Sidebar
+export default Sidebar;
