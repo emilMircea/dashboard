@@ -1,15 +1,19 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
 const CustomIconComponent = props => {
-  return <div className="d-inline-flex">
+  return (
+    <div className="d-inline-flex">
       <span style={{ marginRight: "1rem" }}>
-        <img style={{ width: "25px" }} src={props.icon} />
+        <img
+          alt={props.description}
+          style={{ width: "25px" }}
+          src={props.icon}
+        />
       </span>
-      <span>
-        {props.total}
-      </span>
-    </div>;
+      <span>{props.total}</span>
+    </div>
+  );
 };
 
 CustomIconComponent.propTypes = {
