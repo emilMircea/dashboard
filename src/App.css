@@ -35,7 +35,8 @@ h1, h2, h3, h4, h5, h7, h9, a {
 .sidebar {
   height: 100%;
   padding: 1rem 0;
-  background: linear-gradient(to bottom,#d2af00,0%,#c03500 100%);
+  /* background: linear-gradient(to bottom,#d2af00,0%,rgba(255, 17, 142, 0.749) 100%); */
+  background: linear-gradient(135deg, rgba(255, 17, 142, 0.749) 0%, rgb(223, 99, 80) 50%, rgba(240,47,23,1) 71%, rgba(246,41,12,1) 75%, rgba(255, 17, 142, 0.749) 100%);
 	border-radius: 0.4rem;
   padding: 1rem 0;
   width: 200px;
@@ -52,7 +53,7 @@ h1, h2, h3, h4, h5, h7, h9, a {
 }
 
 .nav-item:hover {
-  background: #b33505;
+  background: #a00c5bbf;
 }
 
 a.nav-link {
