@@ -3,7 +3,7 @@ import GraphWrapper from "./styles/GraphWrapper";
 import GraphHeader from "./styles/GraphHeader";
 import { Bar } from "react-chartjs-2";
 import CustomIconComponent from "./CustomIconComponent";
-import deliveryIcon from "../../assets/images/delivery-icon.svg";
+import salesIcon from "../../assets/images/sales-logo.svg";
 import monthlySalesData from "../../data/montlySalesData";
 
 const MonthlySales = () => (
@@ -13,7 +13,7 @@ const MonthlySales = () => (
         Monthly Sales
       </span>
       <h5 className="card-title graph-title">
-        <CustomIconComponent icon={deliveryIcon} total={189} />
+        <CustomIconComponent icon={salesIcon} total={189} />
       </h5>
     </GraphHeader>
 

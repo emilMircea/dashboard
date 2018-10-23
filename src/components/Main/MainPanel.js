@@ -10,8 +10,8 @@ const MainPanel = () => (
 			<SalesGraph />
 		</div>
 		<div className="row">
-			<MonthlySales />
 			<ShippingGraph />
+			<MonthlySales />
 			<CompletedTasks />
 		</div>
 
