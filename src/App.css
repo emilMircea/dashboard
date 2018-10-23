@@ -16,10 +16,10 @@ h1, h2, h3, h4, h5, h7, h9, a {
 }
 
 /* NAVBAR */
-/* .notifications-wrapper {
-  position: absolute;
-  z-index: 9;
-} */
+.notifications-wrapper {
+  display: flex;
+  cursor: pointer;
+}
 
 /* FOOTER  */
 .footer {
@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h7, h9, a {
 .sidebar {
   height: 100%;
   padding: 1rem 0;
-  background: linear-gradient(to bottom,#15bf81,0%,#44c0c1 100%);
+  background: linear-gradient(to bottom,#d2af00,0%,#c03500 100%);
 	border-radius: 0.4rem;
   padding: 1rem 0;
   width: 200px;
@@ -47,10 +47,12 @@ h1, h2, h3, h4, h5, h7, h9, a {
   justify-content: center;
   padding: 1rem 0;
   text-transform: uppercase;
+  color: whitesmoke;
+  cursor: pointer;
 }
 
 .nav-item:hover {
-  background: #2d9394;
+  background: #b33505;
 }
 
 a.nav-link {
@@ -81,4 +83,8 @@ a.nav-link {
 .graph-title {
   color: white;
   font-weight: 100;
+}
+
+.card-heading {
+  color: rgb(154, 154, 154);
 }
