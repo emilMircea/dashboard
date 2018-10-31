@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5, h7, h9, a {
   cursor: pointer;
 }
 
+.dropdown-menu.dropdown-menu-right.dropdown-navbar {
+  padding: .5rem;
+}
+
 /* FOOTER  */
 .footer {
   margin: 2rem;
@@ -39,7 +43,7 @@ h1, h2, h3, h4, h5, h7, h9, a {
   background: linear-gradient(135deg, rgba(255, 17, 142, 0.749) 0%, rgb(223, 99, 80) 50%, rgba(240,47,23,1) 71%, rgba(246,41,12,1) 75%, rgba(255, 17, 142, 0.749) 100%);
 	border-radius: 0.4rem;
   padding: 1rem 0;
-  width: 200px;
+  width: 90%;
 }
 
 
@@ -89,3 +93,4 @@ a.nav-link {
 .card-heading {
   color: rgb(154, 154, 154);
 }
+
