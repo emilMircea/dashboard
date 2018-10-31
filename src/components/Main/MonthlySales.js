@@ -9,8 +9,11 @@ import monthlySalesData from "../../data/montlySalesData";
 const MonthlySales = () => (
   <GraphWrapper className="col-4 card card-chart">
     <GraphHeader className="card-header">
-      <span style={{ color: "#9A9A9A" }} className="card-category">
-        Monthly Sales
+      <span
+        style={{ color: "#9A9A9A" }}
+        className="card-category is-capitalized"
+      >
+        Sales this Month
       </span>
       <h5 className="card-title graph-title">
         <CustomIconComponent icon={salesIcon} total={189} />
