@@ -1,7 +1,7 @@
 import React from "react";
 import GraphWrapper from "./styles/GraphWrapper";
 import GraphHeader from "./styles/GraphHeader";
-import underperformingIcon from "../../assets/images/underperforming.svg";
+import underperformingIcon from "../../assets/images/underperforming-logo.svg";
 import CustomIconComponent from "./CustomIconComponent";
 import { Bar } from "react-chartjs-2";
 import underperfomingData from "../../data/underperformingData";
