@@ -21,10 +21,10 @@ class App extends Component {
           <Navbar />
         </NavbarStyle>
         <div className="row">
-        <div className="col-2 animated slideInLeft faster">
+        <div className="col-3 animated slideInLeft faster">
             <Sidebar />
           </div>
-          <div className="col-10">
+          <div className="col-9">
             <MainPanel />
           </div>
         </div>
