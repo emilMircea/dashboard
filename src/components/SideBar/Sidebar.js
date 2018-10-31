@@ -9,7 +9,7 @@ const Sidebar = () => (
       <a className="nav-link">Inventory</a>
     </li>
     <li className="nav-item">
-      <a className="nav-link">Some Link</a>
+      <a className="nav-link">Monthly Expenses</a>
     </li>
     <li className="nav-item">
       <a className="nav-link">Notifications</a>
