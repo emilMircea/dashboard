@@ -8,7 +8,7 @@ const monthlySalesData = canvas => {
     labels: ["Week 1", "Week 2", "Week 3", "Week 4"],
     datasets: [
       {
-        label: "Sold this month",
+        label: "Units Sold",
         borderColor: "#3596ff",
         pointBorderColor: "#FFF",
         pointBackgroundColor: "#3596ff",
