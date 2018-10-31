@@ -10,7 +10,7 @@ const UndeperformingComponent = () => (
   <GraphWrapper className="col-4 card card-chart">
     <GraphHeader className="card-header">
       <span className="card-category card-heading">
-        Underperforming products
+        Underperforming Products
       </span>
       <h5 className="card-title graph-title">
         <CustomIconComponent icon={underperformingIcon} total={7} />
