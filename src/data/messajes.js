@@ -9,7 +9,7 @@ const messages = [
     content: "You have 4 customer emails"
   },
   {
-    content: "The monthly expenses have been computed! See them here 👌"
+    content: "👌 The monthly expenses have been computed! See them here 👌"
   }
 ];
 
