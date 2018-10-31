@@ -12,10 +12,7 @@ const Subheading = styled.span`
 `;
 
 const SalesGraph = () => (
-  <GraphWrapper
-    className="col-12 card card-chart"
-    style={{ marginBottom: "2rem" }}
-  >
+  <GraphWrapper className="col-12 card card-chart">
     <GraphHeader className="card-header">
       <Subheading className="card-category">On a per month basis</Subheading>
       <h4 className="card-title graph-title">ACME Sales</h4>
