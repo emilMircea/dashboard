@@ -11,7 +11,7 @@ const CustomIconComponent = props => {
           src={props.icon}
         />
       </span>
-      <span>{props.total}</span>
+      <span style={{ marginTop: '2px'}}>{props.total}</span>
     </div>
   );
 };
