@@ -21,7 +21,7 @@ class App extends Component {
           <Navbar />
         </NavbarStyle>
         <div className="row">
-        <div className="col-3 animated slideInLeft faster">
+          <div className="col-3 animated slideInLeft faster">
             <Sidebar />
           </div>
           <div className="col-9">
@@ -29,7 +29,11 @@ class App extends Component {
           </div>
         </div>
         <div className="footer">
-          <p>footer info</p>
+          <p>
+            Source code for this project can be found at <a href="https://github.com/emilMircea/dashboard">
+              at this github repo
+            </a>
+          </p>
         </div>
       </div>;
   }
