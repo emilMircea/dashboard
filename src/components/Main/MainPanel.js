@@ -1,5 +1,5 @@
 import React from 'react'
-import SalesGraph from './SalesGraph'
+import SalesGraph from './styles/MainChart/SalesChart'
 import ShippingGraph from './ShippingGraph'
 import CompletedTasks from './UnderperformingComponent'
 import MonthlySales from './MonthlySales'
