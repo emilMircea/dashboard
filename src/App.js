@@ -3,7 +3,7 @@ import 'animate.css'
 import "./App.css"; 
 import MainPanel from "./components/Main/MainPanel";
 import Navbar from "./components/Navbar/Navbar";
-import Sidebar from "./components/SideBar/Sidebar";
+import Sidebar from './components/Sidebar/Sidebar'
 import styled from "styled-components";
 
 const NavbarStyle = styled.ul`
@@ -31,7 +31,7 @@ class App extends Component {
         <div className="footer">
           <p>
             Source code for this project can be found at <a href="https://github.com/emilMircea/dashboard">
-              at this github repo
+            at this github repo
             </a>
           </p>
         </div>
