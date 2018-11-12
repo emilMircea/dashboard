@@ -8,13 +8,12 @@ const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   padding-left: 0;
+  margin-top: 1rem;
 `;
 
 const Navbar = () => (
   <Nav className="navbar navbar-expand-lg navbar-absolute navbar-transparent">
-    
     <img src={Logo} style={{ width: '40px', height: '40px', marginLeft: '4.5rem'}} />
-  
     <li>
       <CollapseNavigation />
     </li>
