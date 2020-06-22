@@ -1,21 +1,20 @@
-import React from 'react'
-import SalesGraph from './styles/MainChart/SalesChart'
-import ShippingGraph from './ShippingGraph'
-import CompletedTasks from './UnderperformingComponent'
-import MonthlySales from './MonthlySales'
+import React from "react";
+import SalesChart from "./styles/SalesChart";
+import ShippingGraph from "./ShippingGraph";
+import CompletedTasks from "./UnderperformingComponent";
+import MonthlySales from "./MonthlySales";
 
 const MainPanel = () => (
-	<div className="main-panel">
-		<div className="row">
-			<SalesGraph />
-		</div>
-		<div className="row">
-			<MonthlySales />
-			<CompletedTasks />
-			<ShippingGraph />
-		</div>
+  <div className="main-panel">
+    <div className="row">
+      <SalesChart />
+    </div>
+    <div className="row">
+      <MonthlySales />
+      <CompletedTasks />
+      <ShippingGraph />
+    </div>
+  </div>
+);
 
-	</div>
-)
-
-export default MainPanel
+export default MainPanel;

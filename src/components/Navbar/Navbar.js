@@ -1,7 +1,7 @@
 import React from "react";
 import CollapseNavigation from "./CollapseNavigation";
 import styled from "styled-components";
-import Logo from '../../assets/images/logo-analytics.svg'
+import Logo from "../../assets/images/logo-analytics.svg";
 
 const Nav = styled.nav`
   width: 100%;
@@ -13,7 +13,11 @@ const Nav = styled.nav`
 
 const Navbar = () => (
   <Nav className="navbar navbar-expand-lg navbar-absolute navbar-transparent">
-    <img src={Logo} style={{ width: '40px', height: '40px', marginLeft: '4.5rem'}} />
+    <img
+      alt="logo"
+      src={Logo}
+      style={{ width: "40px", height: "40px", marginLeft: "4.5rem" }}
+    />
     <li>
       <CollapseNavigation />
     </li>

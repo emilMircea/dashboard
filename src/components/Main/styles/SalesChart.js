@@ -1,8 +1,8 @@
 import React from "react";
-import GraphWrapper from "../GraphWrapper";
-import GraphHeader from "../GraphHeader";
+import GraphWrapper from "./GraphWrapper";
+import GraphHeader from "./GraphHeader";
 import { Line } from "react-chartjs-2";
-import data from "../../../../data/salesData";
+import data from "../../../data/salesData";
 import styled from "styled-components";
 
 const Subheading = styled.span`
